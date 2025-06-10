@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .album-art {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 15px;
+    }
+    .song-info {
+      margin: 20px 0;
+    }
+    .progress {
+      width: 80%;
+      margin: 10px auto;
+    }
+    .icons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .next-up {
+      text-align: left;
+      margin-top: 20px;
+    }
+    .next-up h4 {
+      margin-bottom: 10px;
+    }
+    .next-up div {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+    .controls button {
+      background: none;
+      border: none;
+      font-size: 24px;
+    }
+    .controls .play {
+      background-color: #00bfff;
+      color: white;
+      border-radius: 50%;
+      padding: 10px 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="img/capa1.jpeg" alt="Album Art" class="album-art">
+
+  <div class="song-info">
+    <h3>After School</h3>
+    <p>Wheackly</p>
+  </div>
+
+  <input type="range" min="0" max="180" value="106" class="progress">
+  <p>1:46</p>
+
+  <div class="icons">
+    <button>🎵</button>
+    <button>❤️</button>
+  </div>
+
+  <div class="next-up">
+    <h4>UP NEXT</h4>
+    <div>
+      <span>I'm fine</span>
+      <span>Ashe</span>
+      <span>2:16</span>
+    </div>
+    <div>
+      <span>I'm fine</span>
+      <span>Dobin</span>
+      <span>4:19</span>
+    </div>
+  </div>
+
+  <div class="icons controls">
+    <button>⏮</button>
+    <button class="play">⏸</button>
+    <button>⏭</button>
+    <button>🔁</button>
+  </div>
+
+</body>
+</html>
