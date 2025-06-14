@@ -1,11 +1,5 @@
-body {
-    background-image: url("img/semnome.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+*{
+    background-color: rgb(77, 145, 255);
 }
 #inicio{
     color: #ffffff;
@@ -14,7 +8,7 @@ body {
 }
 .play{
     margin-left: 220px;
-    margin-top: 150px;
+    margin-top: 15px;
     display: flex;
 }
 #play{
@@ -25,6 +19,46 @@ body {
     font-family: poppins, sans-serif;
 }
 .tudo{
-    margin-top: 420px;
+    margin-top: 10px;
 
+}
+.c1{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+}
+
+.c2{
+    background-color: #283146;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c3{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c4{
+    background-color:rgb(77, 145, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
 }

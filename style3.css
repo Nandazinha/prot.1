@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 1px;
   }
   
   .menu-btn {
@@ -131,6 +131,7 @@ body {
   .playlist-info {
     flex-grow: 1;
     margin-left: 10px;
+    margin-bottom: 20px;
   }
   
   .playlist-title {
